@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { Card } from './Card';
 import { Button } from './Button';
-import { X, Upload, FileText, Check, AlertCircle } from 'lucide-react';
+import { X, Upload, FileText } from 'lucide-react';
 import { transactionService } from '../services/transactionService';
 
 interface ImportTransactionsModalProps {
